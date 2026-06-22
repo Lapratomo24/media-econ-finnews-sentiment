@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Q('return')   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     5.460
+Date:                Mon, 22 Jun 2026   Prob (F-statistic):             0.0196
+Time:                        20:02:33   Log-Likelihood:                 3561.4
+No. Observations:                1808   AIC:                            -7119.
+Df Residuals:                    1806   BIC:                            -7108.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept              0.0036      0.001      4.411      0.000       0.002       0.005
+negative_sentiment    -0.1107      0.047     -2.337      0.020      -0.204      -0.018
+==============================================================================
+Omnibus:                      360.121   Durbin-Watson:                   2.166
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6407.639
+Skew:                           0.419   Prob(JB):                         0.00
+Kurtosis:                      12.184   Cond. No.                         59.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

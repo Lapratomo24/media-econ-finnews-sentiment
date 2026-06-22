@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            Q('volume')   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                 -0.001
+Method:                 Least Squares   F-statistic:                   0.04019
+Date:                Mon, 22 Jun 2026   Prob (F-statistic):              0.841
+Time:                        20:02:33   Log-Likelihood:                -38226.
+No. Observations:                1808   AIC:                         7.646e+04
+Df Residuals:                    1806   BIC:                         7.647e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+Intercept           4.022e+08   8.97e+06     44.843      0.000    3.85e+08     4.2e+08
+negative_sentiment  1.036e+08   5.17e+08      0.200      0.841    -9.1e+08    1.12e+09
+==============================================================================
+Omnibus:                      827.171   Durbin-Watson:                   0.493
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6132.232
+Skew:                           1.999   Prob(JB):                         0.00
+Kurtosis:                      11.089   Cond. No.                         59.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
